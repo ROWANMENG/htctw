@@ -50,7 +50,6 @@ export default function MainDrawer({ window }) {
             }
           }}
         >
-          {drawerHeader}
           {drawerContent}
         </Drawer>
       )}
