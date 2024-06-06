@@ -10,6 +10,10 @@
     "lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
     "prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\""
   },
+  "engines": { 
+    "npm": ">=9.8.1",
+    "node": ">=18.18.0"
+  },
   "dependencies": {
     "@ant-design/colors": "^7.0.2",
     "@ant-design/icons": "^5.3.1",
